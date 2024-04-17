@@ -1,9 +1,7 @@
 import random
 import string
 
-def RemoveStopWords(query):
-    """s Removes all stopwords from the query."""
-    pass
+
 def RandomCharSub (query):
     """
     Replaces a random character from a random query
