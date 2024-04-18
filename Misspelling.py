@@ -34,7 +34,7 @@ def NeighbCharSwap(query):
     """
         NeighbCharSwap Swaps two neighbouring characters from a random query term 
     """
-    query_without_stop_words = query #RemoveStopWords(query)
+    query_without_stop_words = RemoveStopWords(query)
     words =  query_without_stop_words.split()
     random_term = random.choice(words)
     position = random.randint(0, len(random_term) - 2)
@@ -51,7 +51,7 @@ def QWERTYCharSub(query) :
     term (excluding stopwords) with another character from the QWERTY keyboard such that only characters in close proximity are
     chosen, replicating errors that come from typing too quickly.
     """
-    query_without_stop_words = query.lower() #RemoveStopWords(query.lower())
+    query_without_stop_words = RemoveStopWords(query)
     words =  query_without_stop_words.split()
     random_term = random.choice(words)
     position = random.randint(0, len(random_term) - 1)
