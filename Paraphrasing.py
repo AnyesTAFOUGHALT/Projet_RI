@@ -3,6 +3,7 @@ from gensim.models import KeyedVectors
 from nltk.corpus import stopwords
 from sklearn.neighbors import NearestNeighbors
 from transformers import M2M100ForConditionalGeneration, M2M100Tokenizer
+from transformers import AutoModelWithLMHead, AutoTokenizer
 
 # # Chargement du modèle de langage
 # nlp = spacy.load("en_core_web_sm")
@@ -60,12 +61,40 @@ def BackTranslation(input_query, pivot_language='de', original_language='en'):
     
     return back_translated_query
 
+def T5QQP(input_query, max_length=128):
+    # Chargement du tokenizer et du modèle fine-tuned pour la génération de paraphrases de questions
+    tokenizer = AutoTokenizer.from_pretrained("mrm8488/t5-small-finetuned-quora-for-paraphrasing")
+    model = AutoModelWithLMHead.from_pretrained("mrm8488/t5-small-finetuned-quora-for-paraphrasing")
+
+    # Encodage du texte en utilisant le tokenizer
+    input_ids = tokenizer.encode(input_query, return_tensors="pt", add_special_tokens=True)
+
+    # Génération des paraphrases
+    generated_ids = model.generate(input_ids=input_ids, 
+                                    num_return_sequences=2, 
+                                    num_beams=5, 
+                                    max_length=max_length, 
+                                    no_repeat_ngram_size=2, 
+                                    repetition_penalty=3.5, 
+                                    length_penalty=1.0, 
+                                    early_stopping=True)
+
+    # Décodage des paraphrases générées
+    paraphrase = tokenizer.decode(generated_ids[1], skip_special_tokens=True, clean_up_tokenization_spaces=True)
+
+    return paraphrase
+
 # Exemple d'utilisation
 # original_text = "This is a sample sentence."
 # processed_text = word_embed_syn_swap(original_text)
 # print("Original Text:", original_text)
 # print("Processed Text:", processed_text)
 
-input_query = "what is durable medical equipment consist of"
-translated_query = BackTranslation(input_query)
-print("Translated Query:", translated_query)
+# input_query = "what is durable medical equipment consist of"
+# translated_query = BackTranslation(input_query)
+# print("Translated Query:", translated_query)
+
+# Il faut mettre ? à la fin de la phrase sinon ça marche pas
+text = "what is durable medical equipment consist of?"
+print(T5QQP(text))
+
