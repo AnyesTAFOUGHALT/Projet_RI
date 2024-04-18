@@ -1,5 +1,6 @@
-from Naturality import RemoveStopWords
 import random
+import string
+from Naturality import RemoveStopWords
 
 keyboard_layout = {
     'q': ['w', 'a', 's'],
@@ -45,6 +46,29 @@ def NeighbCharSwap(query):
     
     return modified_query
 
+
+
+def RandomCharSub (query):
+    """
+    Replaces a random character from a random query
+    term (excluding stopwords) with a randomly chosen new ASCII
+    character.
+    """
+    query_cleaned = RemoveStopWords(query)
+
+    query_splitted = query_cleaned.split()
+
+    random_term = random.choice(query_splitted)
+    random_char = random.choice(range(len(random_term)))
+
+    new_char= random.choice(string.ascii_letters)
+
+    modified_term = random_term[:random_char] + new_char + random_term[random_char + 1:]
+    modified_query = query_cleaned.replace(random_term, modified_term)
+
+    return modified_query
+
+
 def QWERTYCharSub(query) :
     """
     Replaces a random character of a random query
@@ -64,4 +88,4 @@ def QWERTYCharSub(query) :
     return modified_query
 
 print(QWERTYCharSub("durable medical equipment consist"))
-
+print(RandomCharSub ("what is durable medical equipment consist of"))
