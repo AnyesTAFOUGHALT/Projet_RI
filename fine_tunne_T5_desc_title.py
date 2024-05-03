@@ -22,7 +22,7 @@ for dtst in ["disks45/nocr/trec-robust-2004","gov2/trec-tb-2004","aquaint/trec-r
 print("En tout j'aurai : ",len(titles), " titres")
 print("En tout j'aurai : ",len(descriptions), " descriptions")
 
-metric = datasets.load_metric('sacrebleu')
+
 
 
 # Example usage
@@ -37,14 +37,13 @@ data_dict = {"description": descriptions, "title": titles}
 # Créer un objet Dataset à partir du dictionnaire
 custom_dataset = Dataset.from_dict(data_dict)
 
-
 max_input_length = 128
 max_target_length = 64
 
 
 def preprocess_function(dataset):
     prefix = "summarize: "
-    inputs_desc = [prefix + doc for doc in dataset["description"]]        
+    inputs_desc = [prefix + doc for doc in dataset["description"]]
     model_inputs_desc = tokenizer(inputs_desc, max_length=max_input_length, truncation=True)
 
     with tokenizer.as_target_tokenizer():
@@ -54,55 +53,76 @@ def preprocess_function(dataset):
     return model_inputs_desc
 
 
-def compute_metrics(eval_pred):
-    predictions, labels = eval_pred
-    decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
-    # Replace -100 in the labels as we can't decode them.
-    labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
-    decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
-    
-    # Rouge expects a newline after each sentence
-    decoded_preds = ["\n".join(nltk.sent_tokenize(pred.strip())) for pred in decoded_preds]
-    decoded_labels = ["\n".join(nltk.sent_tokenize(label.strip())) for label in decoded_labels]
-    
-    result = metric.compute(predictions=decoded_preds, references=decoded_labels, use_stemmer=True)
-    # Extract a few results
-    result = {key: value.mid.fmeasure * 100 for key, value in result.items()}
-    
-    # Add mean generated length
-    prediction_lens = [np.count_nonzero(pred != tokenizer.pad_token_id) for pred in predictions]
-    result["gen_len"] = np.mean(prediction_lens)
-    
-    return {k: round(v, 4) for k, v in result.items()}
+model_checkpoint = "t5-base"
 
-
-model_checkpoint = "t5-base"    
 tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
 
 tokenized_datasets = custom_dataset.map(preprocess_function,batched=True)
 
 model = AutoModelForSeq2SeqLM.from_pretrained(model_checkpoint)
-batch_size = 32
-args = Seq2SeqTrainingArguments(
-    "desc-to-title-summarization-for-trec-desc",
-    learning_rate=2e-5,
-    per_device_train_batch_size=batch_size,
-    per_device_eval_batch_size=batch_size,
-    weight_decay=0.01,
-    save_total_limit=3,
-    num_train_epochs=10,
-    predict_with_generate=True
+
+data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer, model=model)
+
+
+def postprocess_text(preds, labels):
+    preds = ["\n".join(nltk.sent_tokenize(pred.strip())) for pred in preds]
+    labels = ["\n".join(nltk.sent_tokenize(label.strip())) for label in labels]
+    return preds, labels
+
+metric = datasets.load_metric('sacrebleu')
+
+def compute_metrics(eval_preds):
+    preds, labels = eval_preds
+    if isinstance(preds, tuple):
+        preds = preds[0]
+    decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
+
+    labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+    decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+
+    decoded_preds, decoded_labels = postprocess_text(decoded_preds, decoded_labels)
+
+    result = metric.compute(predictions=decoded_preds, references=decoded_labels,use_stemmer=True)
+    # result = {"bleu": result["score"]}
+    result = {key: value.mid.fmeasure * 100 for key, value in result.items()}
+
+    prediction_lens = [np.count_nonzero(pred != tokenizer.pad_token_id) for pred in preds]
+    result["gen_len"] = np.mean(prediction_lens)
+    result = {k: round(v, 4) for k, v in result.items()}
+    return result
+
+batchsize= 30
+training_args = Seq2SeqTrainingArguments(
+  "desc-to-title-summarization-for-trec-desc",
+  learning_rate=2e-4,
+  per_device_train_batch_size=batchsize,
+  per_device_eval_batch_size=batchsize,
+  weight_decay=0.01,
+  save_total_limit=3,
+  num_train_epochs=6,
+  predict_with_generate=True
 )
-data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 
 trainer = Seq2SeqTrainer(
-    model,
-    args,
-    train_dataset=tokenized_datasets,        
-    data_collator=data_collator,
-    tokenizer=tokenizer,
-    compute_metrics=compute_metrics
+  model=model,
+  args=training_args,
+  train_dataset=tokenized_datasets ,
+  tokenizer=tokenizer,
+  data_collator=data_collator,
+  compute_metrics=compute_metrics,
 )
 trainer.train()
 
 model.save_pretrained("./fine_tunned-models/T5_from_Desc_to_Title")
+
+
+# from google.colab import files
+
+# # Chemin où vous voulez sauvegarder le modèle
+# model_path = "{}_from_{}_to_{}".format(model_checkpoint, "description", "title")
+
+# # Sauvegarder le modèle dans le répertoire actuel
+# model.save_pretrained(model_path)
+
+# # Télécharger le fichier
+# files.download(model_path)
