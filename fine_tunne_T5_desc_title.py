@@ -105,4 +105,4 @@ trainer = Seq2SeqTrainer(
 )
 trainer.train()
 
-model.save_pretrained("../fine_tunned-models/T5_from_Desc_to_Title")
+model.save_pretrained("./fine_tunned-models/T5_from_Desc_to_Title")
