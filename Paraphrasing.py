@@ -1,86 +1,53 @@
-import gensim.downloader as api 
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np 
+from Naturality import RemoveStopWords
 import random 
-
-# # Charger le GloVe embeddings
-word_vectors = api.load("glove-wiki-gigaword-300")
-
-#--------Je l'ai juste recipier pour eviter de l'importer -------#
 import nltk
 from nltk.corpus import stopwords
 nltk.download('stopwords')
-def RemoveStopWords(query):
-    """
-    Removes all stopwords from the query
-    """
-    query_lower = query.lower()
-    tokens = nltk.word_tokenize(query_lower)
-    query_without_stop_words = [word for word in tokens if word not in stopwords.words('english')]
-    query_without_stop_words = ' '.join(query_without_stop_words)
-    return query_without_stop_words
 
-#_______________________________________________________________#
+from textattack.transformations import WordSwapEmbedding
+from textattack.augmentation import Augmenter
+from textattack.constraints.semantics import WordEmbeddingDistance
 
 
-#---------------- Cette fonction Ne marche pas a 100% il dit toujours qu'il ne trouve pas de synonyme---#
-def find_nearest_neighbor(word_vectors,word_vector):
-    print("find_nearest_neighbor")
-    # On charge égalemnt les stop words
-    stop_words = set(stopwords.words('english'))
-    
-    nearest_neighbor = None
-    min_dist = np.inf
 
-    for word in word_vectors.index_to_key :
-        if word not in stop_words : 
-            similarity = cosine_similarity([word_vectors[word]],[word_vector])
+#--------------------------------------------------------------------------#
 
-            # Update nearest neighbor if closer
-            if similarity > min_dist:
-                nearest_neighbor = word
-                min_dist = similarity
-    return nearest_neighbor
+# DONE !
+stop_words = set(stopwords.words('english'))
 
 
 def WordEmbedSynSwap(query):
-    """
-    Le but ici est de selctionner le manière random un mot a remplacer avec son synonyme
-    """ 
-    print("WordEmbedSynSwap")
 
-    modified_query = query
+  transformation = WordSwapEmbedding()
+  COSINE_DIST_CONSTRAINT = [WordEmbeddingDistance(min_cos_sim=0.9)]
+  augmenter = Augmenter(transformation=transformation,transformations_per_example=1, constraints=COSINE_DIST_CONSTRAINT)
 
 
-    query_cleaned = RemoveStopWords(query)
-    query_splitted = query_cleaned.split()
-    while(True):
+  phrase_modifiee = []
 
-        random_term = random.choice(query_splitted)
-        print("_______",random_term)
-        if random_term in word_vectors :
-            word_vector = word_vectors[random_term]
-            synonyme = find_nearest_neighbor(word_vectors,word_vector)
-            modified_query = query.replace(random_term, synonyme)
-            break
+  phrases_synonyms = augmenter.augment(RemoveStopWords(query))[0].split(' ')
+  index = 0
+  for mot in query.split(' ') :
+    if mot not in stop_words:
+      phrase_modifiee.append(phrases_synonyms[index])
+      index+=1
+    else:
+      phrase_modifiee.append(mot)
 
-    modified_query
-
-
+  return ' '.join(phrase_modifiee)
 
 print(WordEmbedSynSwap("what is durable medicinal equipment consist of"))
 
 
 #--------------------------------------------------------------------------#
 
-# J'ai une remarque pour les mots sans synonymes rediscuter 
-# Le premier mot de la liste des synonymes est lui même
+# DONE !
 
 from nltk.corpus import wordnet
+nltk.download('punkt')
 
-def get_first_synonym(word):
+def get_synonyms(word):
     synonyms = []
 
     for syn in wordnet.synsets(word):
@@ -88,21 +55,24 @@ def get_first_synonym(word):
             synonyms.append(l.name())
 
     print(synonyms)
-    return synonyms[0]
+    return synonyms
 
 def WordNetSynSwap(query):
     query_cleaned = RemoveStopWords(query)
     query_splitted = query_cleaned.split()
 
     random_term = random.choice(query_splitted)
-    synonyme =  get_first_synonym(random_term)
-    if synonyme == None :
+    synonymes =  get_synonyms(random_term)
+    if len(synonymes) in [0,1]:
         return None # Non valid variation 
     else :
-        print("Le mot a remplacer : ",random_term)
-        modified_query = query.replace(random_term, synonyme)
-
-        return modified_query
+      print("Les synonymes : ",synonymes)
+      for syn in synonymes :
+          if syn != random_term :
+            print("Le mot a remplacer : ",random_term ," avec ", syn)
+            modified_query = query.replace(random_term, syn)
+            break
+      return modified_query
 
 
 print(WordNetSynSwap("what is durable medicinal equipment consist of"))
