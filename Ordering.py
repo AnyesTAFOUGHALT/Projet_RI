@@ -16,7 +16,3 @@ def RandomOrderSwap(query):
         query_cleaned =  ' '.join(query_splitted)
     
     return query_cleaned
-
-
-# for i in range(10):
-#     print(RandomOrderSwap("what is durable mdeical equipment consist of"))

@@ -69,6 +69,7 @@ def RandomCharSub (query):
     return modified_query
 
 
+
 def QWERTYCharSub(query) :
     """
     Replaces a random character of a random query
