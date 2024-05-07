@@ -3,16 +3,20 @@ from Naturality import RemoveStopWords
 
 
 
-def RandomOrderSwap(query):
+def RandomOrderSwap(queries):
     """Randomly swap two words of the query."""
-    query_cleaned = (query)# remove stopwords?
 
-    if len(query) >= 2:
-        query_splitted = query_cleaned.split()
+    queries_variations= []
+    for query in queries :
+        query_cleaned = RemoveStopWords(query)
 
-        indice1, indice2 = random.sample(range(len(query_splitted)), 2)
-        query_splitted[indice1],query_splitted[indice2] = query_splitted[indice2],query_splitted[indice1]
+        if len(query) >= 2:
+            query_splitted = query_cleaned.split()
 
-        query_cleaned =  ' '.join(query_splitted)
-    
-    return query_cleaned
+            indice1, indice2 = random.sample(range(len(query_splitted)), 2)
+            query_splitted[indice1],query_splitted[indice2] = query_splitted[indice2],query_splitted[indice1]
+
+            query_cleaned =  ' '.join(query_splitted)
+        
+        queries_variations.append(query_cleaned)
+    return queries_variations
