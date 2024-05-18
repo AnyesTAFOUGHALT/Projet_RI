@@ -1,0 +1,431 @@
+dataset,query_id,query_original,query_variation,category,variation
+msmarco-passage/trec-dl-2019/judged,156493,do goldfish grow,do goldfish grwo,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1110199,what is wifi vs bluetooth,what is wifi vs blueototh,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1063750,why did the us volunterilay enter ww1,why did the us volunterilay neter ww1,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,130510,definition declaratory judgment,definition declaratory judgmetn,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,489204,right pelvic pain causes,right pelvci pain causes,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,573724,what are the social determinants of health,what are the social determinnats of health,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,168216,does legionella pneumophila cause pneumonia,does legionella pneuomphila cause pneumonia,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1133167,how is the weather in jamaica,how is the weatehr in jamaica,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,527433,types of dysarthria from cerebral palsy,types of dysarthria from cerberal palsy,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1037798,who is robert gray,who is robert grya,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,915593,what types of food can you cook sous vide,what types of food can you coko sous vide,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,264014,how long is life cycle of flea,how long is lfie cycle of flea,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1121402,what can contour plowing reduce,what can conotur plowing reduce,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,962179,when was the salvation army founded,when was the salavtion army founded,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1117099,what is a active margin,what is a atcive margin,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,148538,difference between rn and bsn,difference between rn and bns,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,451602,medicare s definition of mechanical ventilation,meidcare s definition of mechanical ventilation,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,359349,how to find the midsegment of a trapezoid,how to find the midsegment of a tarpezoid,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1115776,what is an aml surveillance analyst,what is an aml surveillance anaylst,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1112341,what is the daily life of thai people,what is the daily lief of thai people,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,131843,definition of a sigmet,definition of a sigemt,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,104861,cost of interior concrete flooring,ocst of interior concrete flooring,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,833860,what is the most popular food in switzerland,what is the most popular ofod in switzerland,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,207786,how are some sharks warm blooded,how are some sharks warm boloded,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1114819,what is durable medical equipment consist of,what is durable medical equipmetn consist of,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,183378,exons definition biology,exnos definition biology,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1106007,define visceral,define vsiceral,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1124210,tracheids are part of,tracheids are patr of,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,490595,rsa definition key,sra definition key,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1103812,who formed the commonwealth of independent states,who formed the commonwealth of indepenednt states,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,87181,causes of left ventricular hypertrophy,causes of left ventricular hpyertrophy,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,443396,lps laws definition,pls laws definition,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1121709,what are the three percenters,what are the three percenetrs,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,87452,causes of military suicide,causes of miiltary suicide,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,855410,what is theraderm used for,what is theraderm usde for,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1114646,what is famvir prescribed for,what is famvir prsecribed for,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,19335,anthropological definition of environment,anthropoolgical definition of environment,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,47923,axon terminals or synaptic knob definition,axon terminasl or synaptic knob definition,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,405717,is cdg airport in main paris,is dcg airport in main paris,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,182539,example of monotonic function,exampel of monotonic function,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1113437,what is physical description of spruce,what is physical desrciption of spruce,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,1129237,hydrogen is a liquid below what temperature,hyrdogen is a liquid below what temperature,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,146187,difference between a mcdouble and a double cheeseburger,diffreence between a mcdouble and a double cheeseburger,Misspelling,NeighbCharSwap
+msmarco-passage/trec-dl-2019/judged,156493,do goldfish grow,do goldfish gzow,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1110199,what is wifi vs bluetooth,what is wifh vs bluetooth,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1063750,why did the us volunterilay enter ww1,why did the us volunterilay enter wwf,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,130510,definition declaratory judgment,definition declaratory judgmeft,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,489204,right pelvic pain causes,right pelvic pain causew,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,573724,what are the social determinants of health,what are the socgal determinants of health,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,168216,does legionella pneumophila cause pneumonia,does legionella pneumcphila cause pneumonia,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1133167,how is the weather in jamaica,how is the weather in jtmaica,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,527433,types of dysarthria from cerebral palsy,trpes of dysarthria from cerebral palsy,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1037798,who is robert gray,who is zobert gray,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,915593,what types of food can you cook sous vide,what types of food can you coob sous vide,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,264014,how long is life cycle of flea,how hong is life cycle of flea,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1121402,what can contour plowing reduce,what can contour plowing rxduce,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,962179,when was the salvation army founded,when was the salvation rrmy founded,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1117099,what is a active margin,what is a active marsin,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,148538,difference between rn and bsn,difffrence between rn and bsn,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,451602,medicare s definition of mechanical ventilation,medicare s definition of mechanical ventilgtion,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,359349,how to find the midsegment of a trapezoid,how to fini the midsegment of a trapezoid,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1115776,what is an aml surveillance analyst,what is an aml surveillance analwst,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1112341,what is the daily life of thai people,what is the daily life of thfi people,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,131843,definition of a sigmet,definition of a sipmet,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,104861,cost of interior concrete flooring,cost of interior concrete floorilg,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,833860,what is the most popular food in switzerland,what is the most popular food in switzekland,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,207786,how are some sharks warm blooded,how are some sharks warn blooded,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1114819,what is durable medical equipment consist of,what is durable medicol equipment consist of,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,183378,exons definition biology,vxons definition biology,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1106007,define visceral,defene visceral,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1124210,tracheids are part of,tracheids are parl of,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,490595,rsa definition key,rsa definition kej,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1103812,who formed the commonwealth of independent states,who formed the commonwealth of independent states,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,87181,causes of left ventricular hypertrophy,causes of left ventricular hypurtrophy,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,443396,lps laws definition,lpc laws definition,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1121709,what are the three percenters,what are the three percentess,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,87452,causes of military suicide,causes of militarb suicide,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,855410,what is theraderm used for,what is theradorm used for,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1114646,what is famvir prescribed for,what is famvjr prescribed for,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,19335,anthropological definition of environment,anthropologisal definition of environment,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,47923,axon terminals or synaptic knob definition,axon terminals or synaptic kfob definition,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,405717,is cdg airport in main paris,is cng airport in main paris,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,182539,example of monotonic function,example of monotonic cunction,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1113437,what is physical description of spruce,what is physvcal description of spruce,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,1129237,hydrogen is a liquid below what temperature,hydrogen is a loquid below what temperature,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,146187,difference between a mcdouble and a double cheeseburger,difference between a mcdsuble and a double cheeseburger,Misspelling,RandomCharSub
+msmarco-passage/trec-dl-2019/judged,156493,do goldfish grow,do golffish grow,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1110199,what is wifi vs bluetooth,what is wkfi vs bluetooth,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1063750,why did the us volunterilay enter ww1,why did the us volunterilqy enter ww1,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,130510,definition declaratory judgment,definition declaratofy judgment,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,489204,right pelvic pain causes,right pelvic pain causws,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,573724,what are the social determinants of health,what are the social determinante of health,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,168216,does legionella pneumophila cause pneumonia,does legionellz pneumophila cause pneumonia,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1133167,how is the weather in jamaica,how is the weather in jsmaica,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,527433,types of dysarthria from cerebral palsy,types of dysarthria from cetebral palsy,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1037798,who is robert gray,who is fobert gray,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,915593,what types of food can you cook sous vide,what types of food can you xook sous vide,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,264014,how long is life cycle of flea,how lomg is life cycle of flea,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1121402,what can contour plowing reduce,what can contiur plowing reduce,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,962179,when was the salvation army founded,when was the salvation arny founded,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1117099,what is a active margin,what is a avtive margin,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,148538,difference between rn and bsn,difference between rn and bdn,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,451602,medicare s definition of mechanical ventilation,medicade s definition of mechanical ventilation,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,359349,how to find the midsegment of a trapezoid,how to fijd the midsegment of a trapezoid,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1115776,what is an aml surveillance analyst,what is an aml surveillancs analyst,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1112341,what is the daily life of thai people,what is the daily life of thai oeople,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,131843,definition of a sigmet,definition of a sirmet,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,104861,cost of interior concrete flooring,cost of interior conxrete flooring,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,833860,what is the most popular food in switzerland,what is the most popular foor in switzerland,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,207786,how are some sharks warm blooded,how are some sharjs warm blooded,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1114819,what is durable medical equipment consist of,what is durable medical equipmenf consist of,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,183378,exons definition biology,exons cefinition biology,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1106007,define visceral,define visceeal,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1124210,tracheids are part of,tracheidq are part of,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,490595,rsa definition key,rsa definitiin key,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1103812,who formed the commonwealth of independent states,who formed the commonwealth of ondependent states,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,87181,causes of left ventricular hypertrophy,cajses of left ventricular hypertrophy,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,443396,lps laws definition,lps laws defjnition,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1121709,what are the three percenters,what are the tbree percenters,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,87452,causes of military suicide,causea of military suicide,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,855410,what is theraderm used for,what is theraderm user for,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1114646,what is famvir prescribed for,what is famvir prescrihed for,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,19335,anthropological definition of environment,anthropologifal definition of environment,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,47923,axon terminals or synaptic knob definition,axon terminals or synaptic knob definitiln,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,405717,is cdg airport in main paris,is vdg airport in main paris,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,182539,example of monotonic function,ecample of monotonic function,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1113437,what is physical description of spruce,what is physical description of sptuce,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,1129237,hydrogen is a liquid below what temperature,hydrogen is a liquid below what temperaturw,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,146187,difference between a mcdouble and a double cheeseburger,difference between a mcdluble and a double cheeseburger,Misspelling,QWERTYCharSub
+msmarco-passage/trec-dl-2019/judged,156493,do goldfish grow,goldfish grow,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1110199,what is wifi vs bluetooth,wifi vs bluetooth,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1063750,why did the us volunterilay enter ww1,us volunterilay enter ww1,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,130510,definition declaratory judgment,definition declaratory judgment,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,489204,right pelvic pain causes,right pelvic pain causes,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,573724,what are the social determinants of health,social determinants health,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,168216,does legionella pneumophila cause pneumonia,legionella pneumophila cause pneumonia,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1133167,how is the weather in jamaica,weather jamaica,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,527433,types of dysarthria from cerebral palsy,types dysarthria cerebral palsy,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1037798,who is robert gray,robert gray,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,915593,what types of food can you cook sous vide,types food cook sous vide,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,264014,how long is life cycle of flea,long life cycle flea,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1121402,what can contour plowing reduce,contour plowing reduce,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,962179,when was the salvation army founded,salvation army founded,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1117099,what is a active margin,active margin,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,148538,difference between rn and bsn,difference rn bsn,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,451602,medicare s definition of mechanical ventilation,medicare definition mechanical ventilation,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,359349,how to find the midsegment of a trapezoid,find midsegment trapezoid,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1115776,what is an aml surveillance analyst,aml surveillance analyst,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1112341,what is the daily life of thai people,daily life thai people,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,131843,definition of a sigmet,definition sigmet,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,104861,cost of interior concrete flooring,cost interior concrete flooring,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,833860,what is the most popular food in switzerland,popular food switzerland,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,207786,how are some sharks warm blooded,sharks warm blooded,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1114819,what is durable medical equipment consist of,durable medical equipment consist,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,183378,exons definition biology,exons definition biology,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1106007,define visceral,define visceral,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1124210,tracheids are part of,tracheids part,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,490595,rsa definition key,rsa definition key,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1103812,who formed the commonwealth of independent states,formed commonwealth independent states,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,87181,causes of left ventricular hypertrophy,causes left ventricular hypertrophy,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,443396,lps laws definition,lps laws definition,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1121709,what are the three percenters,three percenters,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,87452,causes of military suicide,causes military suicide,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,855410,what is theraderm used for,theraderm used,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1114646,what is famvir prescribed for,famvir prescribed,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,19335,anthropological definition of environment,anthropological definition environment,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,47923,axon terminals or synaptic knob definition,axon terminals synaptic knob definition,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,405717,is cdg airport in main paris,cdg airport main paris,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,182539,example of monotonic function,example monotonic function,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1113437,what is physical description of spruce,physical description spruce,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,1129237,hydrogen is a liquid below what temperature,hydrogen liquid temperature,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,146187,difference between a mcdouble and a double cheeseburger,difference mcdouble double cheeseburger,Naturality,RemoveStopWords
+msmarco-passage/trec-dl-2019/judged,156493,do goldfish grow,goldfish,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1110199,what is wifi vs bluetooth,wifi vs bluetooth,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1063750,why did the us volunterilay enter ww1,volunterilay ww,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,130510,definition declaratory judgment,declaratory judgment,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,489204,right pelvic pain causes,pelvic pain,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,573724,what are the social determinants of health,social determinants of health,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,168216,does legionella pneumophila cause pneumonia,legionella pneumophila,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1133167,how is the weather in jamaica,jamaica weather,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,527433,types of dysarthria from cerebral palsy,dysarthria cerebral pal,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1037798,who is robert gray,robert gray,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,915593,what types of food can you cook sous vide,sous vide food,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,264014,how long is life cycle of flea,flea life cycle,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1121402,what can contour plowing reduce,contour plowing,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,962179,when was the salvation army founded,salvation army,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1117099,what is a active margin,active margin,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,148538,difference between rn and bsn,rn bsn,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,451602,medicare s definition of mechanical ventilation,mechanical ventilation,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,359349,how to find the midsegment of a trapezoid,trapezoid,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1115776,what is an aml surveillance analyst,aml surveillance analyst,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1112341,what is the daily life of thai people,thai people,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,131843,definition of a sigmet,sigmet,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,104861,cost of interior concrete flooring,cost of interior concrete flooring,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,833860,what is the most popular food in switzerland,food in switzerland,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,207786,how are some sharks warm blooded,shark warm blooded,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1114819,what is durable medical equipment consist of,durable medical equipment,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,183378,exons definition biology,exons biology,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1106007,define visceral,visceral,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1124210,tracheids are part of,tracheid,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,490595,rsa definition key,rsa definition,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1103812,who formed the commonwealth of independent states,commonwealth,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,87181,causes of left ventricular hypertrophy,left ventricular hypertrophy,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,443396,lps laws definition,lps laws definition,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1121709,what are the three percenters,three percenters,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,87452,causes of military suicide,military suicide,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,855410,what is theraderm used for,theraderm,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1114646,what is famvir prescribed for,famvir,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,19335,anthropological definition of environment,environment anthropological definition,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,47923,axon terminals or synaptic knob definition,synaptic knobs,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,405717,is cdg airport in main paris,cdg airport paris,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,182539,example of monotonic function,monotonic function,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1113437,what is physical description of spruce,spruce,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,1129237,hydrogen is a liquid below what temperature,hydrogen liquid below what temperature,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,146187,difference between a mcdouble and a double cheeseburger,double cheeseburger,Naturality,T5DescToTitle
+msmarco-passage/trec-dl-2019/judged,156493,do goldfish grow,do grow goldfish,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1110199,what is wifi vs bluetooth,vs is wifi what bluetooth,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1063750,why did the us volunterilay enter ww1,why did volunterilay us the enter ww1,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,130510,definition declaratory judgment,definition judgment declaratory,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,489204,right pelvic pain causes,pelvic right pain causes,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,573724,what are the social determinants of health,what health the social determinants of are,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,168216,does legionella pneumophila cause pneumonia,cause legionella pneumophila does pneumonia,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1133167,how is the weather in jamaica,how is the in weather jamaica,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,527433,types of dysarthria from cerebral palsy,types of from dysarthria cerebral palsy,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1037798,who is robert gray,is who robert gray,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,915593,what types of food can you cook sous vide,what types of sous can you cook food vide,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,264014,how long is life cycle of flea,how flea is life cycle of long,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1121402,what can contour plowing reduce,what can reduce plowing contour,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,962179,when was the salvation army founded,the was when salvation army founded,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1117099,what is a active margin,active is a what margin,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,148538,difference between rn and bsn,difference between and rn bsn,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,451602,medicare s definition of mechanical ventilation,s medicare definition of mechanical ventilation,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,359349,how to find the midsegment of a trapezoid,how to find the midsegment of trapezoid a,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1115776,what is an aml surveillance analyst,what aml an is surveillance analyst,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1112341,what is the daily life of thai people,what is the thai life of daily people,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,131843,definition of a sigmet,definition sigmet a of,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,104861,cost of interior concrete flooring,cost of interior flooring concrete,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,833860,what is the most popular food in switzerland,what is most the popular food in switzerland,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,207786,how are some sharks warm blooded,warm are some sharks how blooded,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1114819,what is durable medical equipment consist of,what is durable consist equipment medical of,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,183378,exons definition biology,exons biology definition,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1106007,define visceral,visceral define,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1124210,tracheids are part of,of are part tracheids,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,490595,rsa definition key,definition rsa key,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1103812,who formed the commonwealth of independent states,who formed the commonwealth states independent of,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,87181,causes of left ventricular hypertrophy,causes left of ventricular hypertrophy,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,443396,lps laws definition,lps definition laws,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1121709,what are the three percenters,percenters are the three what,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,87452,causes of military suicide,of causes military suicide,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,855410,what is theraderm used for,used is theraderm what for,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1114646,what is famvir prescribed for,what is prescribed famvir for,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,19335,anthropological definition of environment,anthropological of definition environment,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,47923,axon terminals or synaptic knob definition,axon terminals knob synaptic or definition,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,405717,is cdg airport in main paris,is cdg airport paris main in,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,182539,example of monotonic function,monotonic of example function,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1113437,what is physical description of spruce,what is physical description spruce of,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,1129237,hydrogen is a liquid below what temperature,hydrogen is a what below liquid temperature,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,146187,difference between a mcdouble and a double cheeseburger,between difference a mcdouble and a double cheeseburger,Ordering,RandomOrderSwap
+msmarco-passage/trec-dl-2019/judged,156493,do goldfish grow,gold fish grows,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1110199,what is wifi vs bluetooth,what is wifi vs bluetooth,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1063750,why did the us volunterilay enter ww1,why the u s volunterilay entered ww1,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,130510,definition declaratory judgment,definition of declaring judgment,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,489204,right pelvic pain causes,causes right pain,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,573724,what are the social determinants of health,what are the social factors of health,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,168216,does legionella pneumophila cause pneumonia,legionella pneumophila causes pneumonia,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1133167,how is the weather in jamaica,how is the weather in jamaica,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,527433,types of dysarthria from cerebral palsy,types of dysarthria from brain palsy,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1037798,who is robert gray,who is robert grey,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,915593,what types of food can you cook sous vide,what types of food you can cook under vide,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,264014,how long is life cycle of flea,how long is the life cycle of the flies,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1121402,what can contour plowing reduce,what can reduce contour plowing,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,962179,when was the salvation army founded,when the rescue army was established,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1117099,what is a active margin,what is an active margin,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,148538,difference between rn and bsn,difference between rn and bsn,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,451602,medicare s definition of mechanical ventilation,definition of mechanical ventilation,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,359349,how to find the midsegment of a trapezoid,how to find the middle segment of a trapezoid,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1115776,what is an aml surveillance analyst,what is an aml monitoring analyst,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1112341,what is the daily life of thai people,what is the daily life of the thai people,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,131843,definition of a sigmet,definition of a sigmet,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,104861,cost of interior concrete flooring,cost of internal concrete,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,833860,what is the most popular food in switzerland,what is the most popular food in switzerland,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,207786,how are some sharks warm blooded,how are some sharks hot blood,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1114819,what is durable medical equipment consist of,what is sustainable medical equipment,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,183378,exons definition biology,exon definition biology,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1106007,define visceral,defining visceral,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1124210,tracheids are part of,traces are part of,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,490595,rsa definition key,rsa definition key,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1103812,who formed the commonwealth of independent states,the common wealth of independent states,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,87181,causes of left ventricular hypertrophy,causes of ventricular hypertrophy,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,443396,lps laws definition,lps law definition,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1121709,what are the three percenters,what are the 3 percent,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,87452,causes of military suicide,causes of military suicide,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,855410,what is theraderm used for,what is theraderm used,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1114646,what is famvir prescribed for,what is famvir prescribed for,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,19335,anthropological definition of environment,anthropological definition of the environment,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,47923,axon terminals or synaptic knob definition,axon terminals or synaptic nod definition,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,405717,is cdg airport in main paris,is cdg airport in the headquarters of paris,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,182539,example of monotonic function,examples of monotonous function,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1113437,what is physical description of spruce,what is the physical description of spruce,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,1129237,hydrogen is a liquid below what temperature,hydrogen is a fluid under which temperature,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,146187,difference between a mcdouble and a double cheeseburger,difference between a mcdouble and a double cheeseburger,Paraphrasing,BackTranslation
+msmarco-passage/trec-dl-2019/judged,156493,do goldfish grow,do goldfish grow,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1110199,what is wifi vs bluetooth,what is the difference between wifi and bluetooth,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1063750,why did the us volunterilay enter ww1,why did the us volunterilay enter ww1,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,130510,definition declaratory judgment,what is declaratory judgment,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,489204,right pelvic pain causes,what causes pelvic pain,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,573724,what are the social determinants of health,what are social determinants of health,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,168216,does legionella pneumophila cause pneumonia,does legionella pneumophila cause pneumonia,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1133167,how is the weather in jamaica,how is the weather in jamaica,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,527433,types of dysarthria from cerebral palsy,what types of dysarthria from cerebral palsy,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1037798,who is robert gray,who s robert gray,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,915593,what types of food can you cook sous vide,what types of food can you cook under vide,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,264014,how long is life cycle of flea,how long is life cycle of flea,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1121402,what can contour plowing reduce,what can contour plowing reduce,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,962179,when was the salvation army founded,when was salvation army founded,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1117099,what is a active margin,what is an active margin,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,148538,difference between rn and bsn,what is the difference between rn and bsn,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,451602,medicare s definition of mechanical ventilation,what is mechanical ventilation,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,359349,how to find the midsegment of a trapezoid,how do i find the midsegment of a trapezoid,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1115776,what is an aml surveillance analyst,what is an aml surveillance analyst,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1112341,what is the daily life of thai people,what is daily life of thai people,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,131843,definition of a sigmet,what is sigmet,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,104861,cost of interior concrete flooring,how much does interior concrete flooring cost,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,833860,what is the most popular food in switzerland,which is the most popular food in switzerland,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,207786,how are some sharks warm blooded,how are some sharks warm blooded,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1114819,what is durable medical equipment consist of,what is a durable medical equipment consist of,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,183378,exons definition biology,what are exons definition biology,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1106007,define visceral,how do you define visceral,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1124210,tracheids are part of,what are the tracheids,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,490595,rsa definition key,what is the rsa definition key,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1103812,who formed the commonwealth of independent states,who formed the commonwealth of independent states,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,87181,causes of left ventricular hypertrophy,what causes left ventricular hypertrophy,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,443396,lps laws definition,what is lps law definition,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1121709,what are the three percenters,what are the three percenters,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,87452,causes of military suicide,what is the cause of military suicide,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,855410,what is theraderm used for,what is theraderm used for,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1114646,what is famvir prescribed for,what is famvir prescribed for,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,19335,anthropological definition of environment,what is an anthropological definition of environment,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,47923,axon terminals or synaptic knob definition,what is the synaptic knob definition of axon terminals,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,405717,is cdg airport in main paris,is cdg airport in main paris,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,182539,example of monotonic function,what is monotonic function,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1113437,what is physical description of spruce,what is the physical description of spruce,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,1129237,hydrogen is a liquid below what temperature,is hydrogen a liquid below the temperature,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,146187,difference between a mcdouble and a double cheeseburger,what is the difference between a cheeseburger and mcdouble,Paraphrasing,T5QQP
+msmarco-passage/trec-dl-2019/judged,156493,do goldfish grow,do goldfish risen,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1110199,what is wifi vs bluetooth,what is wifi versus bluetooth,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1063750,why did the us volunterilay enter ww1,why did the us volunterilay intro ww1,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,130510,definition declaratory judgment,definitions declaratory judgment,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,489204,right pelvic pain causes,right thoracic pain causes,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,573724,what are the social determinants of health,what are the social determinants of sanitary,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,168216,does legionella pneumophila cause pneumonia,does legionella pneumophila reason pneumonia,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1133167,how is the weather in jamaica,how is the meteorology in jamaica,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,527433,types of dysarthria from cerebral palsy,genre of dysarthria from cerebral palsy,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1037798,who is robert gray,who is roberta gray,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,915593,what types of food can you cook sous vide,what type of food can you cook sous vide,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,264014,how long is life cycle of flea,how long is vie cycle of flea,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1121402,what can contour plowing reduce,what can contour plowing cutback,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,962179,when was the salvation army founded,when was the salvation army based,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1117099,what is a active margin,what is a active marge,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,148538,difference between rn and bsn,diff between rn and bsn,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,451602,medicare s definition of mechanical ventilation,medicare s define of mechanical ventilation,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,359349,how to find the midsegment of a trapezoid,how to finds the midsegment of a trapezoid,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1115776,what is an aml surveillance analyst,what is an aml surveillance psychiatrist,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1112341,what is the daily life of thai people,what is the daily lifetime of thai people,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,131843,definition of a sigmet,definitions of a sigmet,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,104861,cost of interior concrete flooring,cost of interior concrete soil,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,833860,what is the most popular food in switzerland,what is the most popular eating in switzerland,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,207786,how are some sharks warm blooded,how are some shark warm blooded,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1114819,what is durable medical equipment consist of,what is durable medicinal equipment consist of,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,183378,exons definition biology,exons define biology,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1106007,define visceral,determine visceral,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1124210,tracheids are part of,tracheids are parties of,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,490595,rsa definition key,rsa definition essentials,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1103812,who formed the commonwealth of independent states,who formed the commonwealth of autonomous states,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,87181,causes of left ventricular hypertrophy,causes of exited ventricular hypertrophy,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,443396,lps laws definition,lps statutes definition,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1121709,what are the three percenters,what are the tres percenters,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,87452,causes of military suicide,causes of militar suicide,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,855410,what is theraderm used for,what is theraderm utilized for,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1114646,what is famvir prescribed for,what is famvir prescribe for,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,19335,anthropological definition of environment,anthropological definition of environments,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,47923,axon terminals or synaptic knob definition,axon terminal or synaptic knob definition,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,405717,is cdg airport in main paris,is cdg airfield in main paris,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,182539,example of monotonic function,instance of monotonic function,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1113437,what is physical description of spruce,what is physique description of spruce,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,1129237,hydrogen is a liquid below what temperature,hydrogen is a fluids below what temperature,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,146187,difference between a mcdouble and a double cheeseburger,divergence between a mcdouble and a double cheeseburger,Paraphrasing,WordEmbedSynSwap
+msmarco-passage/trec-dl-2019/judged,156493,do goldfish grow,do carassius auratus grow,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1110199,what is wifi vs bluetooth,what is wireless local area network vs bluetooth,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1063750,why did the us volunterilay enter ww1,why did the us volunterilay enter ww1,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,130510,definition declaratory judgment,definition declarative judgment,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,489204,right pelvic pain causes,right pelvic pain cause,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,573724,what are the social determinants of health,what are the social determinant of health,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,168216,does legionella pneumophila cause pneumonia,does legionella pneumophila cause pneumonia,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1133167,how is the weather in jamaica,how is the weather in jamaica,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,527433,types of dysarthria from cerebral palsy,types of dysarthria from cerebral paralysis,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1037798,who is robert gray,who is robert grayness,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,915593,what types of food can you cook sous vide,what types of nutrient can you cook sous vide,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,264014,how long is life cycle of flea,how long is life rhythm of flea,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1121402,what can contour plowing reduce,what can contour line plowing reduce,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,962179,when was the salvation army founded,when was the salvation regular army founded,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1117099,what is a active margin,what is a active border,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,148538,difference between rn and bsn,deviation between rn and bsn,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,451602,medicare s definition of mechanical ventilation,deviation between rn and bsn,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,359349,how to find the midsegment of a trapezoid,how to find the midsegment of a trapezoid bone,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1115776,what is an aml surveillance analyst,what is an aml surveillance analyst,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1112341,what is the daily life of thai people,what is the day to day life of thai people,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,131843,definition of a sigmet,what is the day to day life of thai people,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,104861,cost of interior concrete flooring,cost of inside concrete flooring,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,833860,what is the most popular food in switzerland,what is the most popular nutrient in switzerland,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,207786,how are some sharks warm blooded,how are some shark warm blooded,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1114819,what is durable medical equipment consist of,what is lasting medical equipment consist of,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,183378,exons definition biology,exons definition biological science,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1106007,define visceral,specify visceral,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1124210,tracheids are part of,tracheids are portion of,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,490595,rsa definition key,tracheids are portion of,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1103812,who formed the commonwealth of independent states,who formed the state of independent states,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,87181,causes of left ventricular hypertrophy,causes of left ventricular hypertrophy,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,443396,lps laws definition,who formed the state of independent states,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1121709,what are the three percenters,what are the three percenters,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,87452,causes of military suicide,cause of military suicide,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,855410,what is theraderm used for,what is theraderm use for,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1114646,what is famvir prescribed for,what is famvir prescribed for,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,19335,anthropological definition of environment,anthropological definition of environment,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,47923,axon terminals or synaptic knob definition,what is theraderm use for,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,405717,is cdg airport in main paris,is cdg airport in briny paris,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,182539,example of monotonic function,illustration of monotonic function,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1113437,what is physical description of spruce,what is physical description of spruce up,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,1129237,hydrogen is a liquid below what temperature,hydrogen is a liquidness below what temperature,Paraphrasing,WordNetSynSwap
+msmarco-passage/trec-dl-2019/judged,146187,difference between a mcdouble and a double cheeseburger,difference between a mcdouble and a double cheeseburger,Paraphrasing,WordNetSynSwap

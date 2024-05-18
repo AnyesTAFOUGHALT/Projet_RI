@@ -1,3 +1,4 @@
+
 import random 
 from transformers import M2M100ForConditionalGeneration, M2M100Tokenizer
 from transformers import AutoModelWithLMHead, AutoTokenizer
@@ -26,26 +27,23 @@ stop_words = set(stopwords.words('english'))
 def WordEmbedSynSwap(queries):
 
     transformation = WordSwapEmbedding()
-    COSINE_DIST_CONSTRAINT = [WordEmbeddingDistance(min_cos_sim=0.8)]
+    COSINE_DIST_CONSTRAINT = [WordEmbeddingDistance(min_cos_sim=0.9)]
     augmenter = Augmenter(transformation=transformation,transformations_per_example=1, constraints=COSINE_DIST_CONSTRAINT)
 
     queries_variations= []
     for query in queries :
-      print("WordEmbedSynSwap query ",query)
-      phrase_modifiee = []
+        phrase_modifiee = []
 
-      phrases_synonyms = augmenter.augment(RemoveStopWords([query])[0])[0].split(' ')
-      print("phrases_synonyms ", phrases_synonyms)
-      index = 0
-      for mot in query.split(' ') :
-          if mot not in stop_words:
-            print("index ",index)
-            phrase_modifiee.append(phrases_synonyms[index])
-            index+=1
-          else:
-              phrase_modifiee.append(mot)
+        phrases_synonyms = augmenter.augment(RemoveStopWords(query))[0].split(' ')
+        index = 0
+        for mot in query.split(' ') :
+            if mot not in stop_words:
+                phrase_modifiee.append(phrases_synonyms[index])
+                index+=1
+            else:
+                phrase_modifiee.append(mot)
 
-      queries_variations.append(' '.join(phrase_modifiee))
+        queries_variations.append(' '.join(phrase_modifiee))
     return queries_variations
 
 
@@ -70,34 +68,25 @@ def get_synonyms(word):
 def WordNetSynSwap(queries):
     queries_variations= []
     for query in queries :
-      print("query ", query)
-      query_cleaned = RemoveStopWords([query])[0]
-      query_splitted = query_cleaned.split()
-      print("query_cleaned ", query_cleaned)
-      if len(query_splitted) != 0 :
+        query_cleaned = RemoveStopWords(query)
+        query_splitted = query_cleaned.split()
+
         random_term = random.choice(query_splitted)
         synonymes =  get_synonyms(random_term)
-        print("synonymes ",synonymes)
-        
         if len(synonymes) in [0,1]:
-          queries_variations.append(query) # Non valid variation 
+            queries_variations.append(None) # Non valid variation 
         else :
-          modified = False
-          for syn in synonymes :
-            if syn != random_term :
-              modified = True
-              print("Le mot a remplacer : ",random_term ," avec ", syn)
-              modified_query = query.replace(random_term, syn)
-              queries_variations.append(modified_query)
-              break
-          if not modified :
-            queries_variations.append(query)
-      else :
-        queries_variations.append(query)
+            print("Les synonymes : ",synonymes)
+            for syn in synonymes :
+                if syn != random_term :
+                    print("Le mot a remplacer : ",random_term ," avec ", syn)
+                    modified_query = query.replace(random_term, syn)
+                    break
+            queries_variations.append(modified_query)
     return queries_variations
 
 
-#print(WordNetSynSwap("what is durable medicinal equipment consist of"))
+print(WordNetSynSwap("what is durable medicinal equipment consist of"))
 
 #---------------------------------------------------------------------------#
 
@@ -137,8 +126,6 @@ def T5QQP(queries, max_length=128):
     queries_variations= []
     for input_query in queries :
         # Encodage du texte en utilisant le tokenizer
-        input_query+=' ?'
-        print("query is ", input_query)
         input_ids = tokenizer.encode(input_query, return_tensors="pt", add_special_tokens=True)
 
         # Génération des paraphrases
@@ -156,3 +143,7 @@ def T5QQP(queries, max_length=128):
 
         queries_variations.append(paraphrase)
     return queries_variations
+
+# Il faut mettre ? à la fin de la phrase sinon ça marche pas
+text = "what is durable medical equipment consist of?"
+print(T5QQP(text))

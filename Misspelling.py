@@ -1,6 +1,15 @@
 import random
 import string
 from Naturality import RemoveStopWords
+import re
+
+def suppression_ponctuation(text):
+    punc = string.punctuation  
+    punc += '\n\r\t'
+    text = text.translate(str.maketrans(punc, ' ' * len(punc)))  
+    text = re.sub('( )+', ' ', text)
+
+    return text
 
 keyboard_layout = {
     'q': ['w', 'a', 's'],
@@ -37,16 +46,24 @@ def NeighbCharSwap(queries):
     """
     queries_variations= []
     for query in queries :
-        query_without_stop_words = RemoveStopWords(query)
+        query_without_stop_words = RemoveStopWords([query])[0]
+        query_without_stop_words = suppression_ponctuation(query_without_stop_words)
         words =  query_without_stop_words.split()
-        random_term = random.choice(words)
-        position = random.randint(0, len(random_term) - 2)
-        term_list = list(random_term)
-        term_list[position], term_list[position + 1] = term_list[position + 1], term_list[position]
-        modified_term = ''.join(term_list)
-        modified_query = query.replace(random_term, modified_term)
-        
-        queries_variations.append(modified_query)
+        if len(words) != 0:
+          while True:
+            random_term = random.choice(words)
+            if len(random_term) >= 2:
+              break
+          print(random_term)
+          position = random.randint(0, len(random_term) - 2)
+          term_list = list(random_term)
+          term_list[position], term_list[position + 1] = term_list[position + 1], term_list[position]
+          modified_term = ''.join(term_list)
+          modified_query = query.replace(random_term, modified_term)
+          
+          queries_variations.append(modified_query)
+        else :
+          queries_variations.append(query)
     return queries_variations
 
 
@@ -60,19 +77,21 @@ def RandomCharSub (queries):
 
     queries_variations= []
     for query in queries :
-        query_cleaned = RemoveStopWords(query)
-
+        query_cleaned = RemoveStopWords([query])[0]
+        query_cleaned = suppression_ponctuation(query_cleaned)
         query_splitted = query_cleaned.split()
+        if len(query_splitted) != 0 :
+          random_term = random.choice(query_splitted)
+          random_char = random.choice(range(len(random_term)))
 
-        random_term = random.choice(query_splitted)
-        random_char = random.choice(range(len(random_term)))
+          new_char= random.choice(string.ascii_letters)
 
-        new_char= random.choice(string.ascii_letters)
+          modified_term = random_term[:random_char] + new_char + random_term[random_char + 1:]
+          modified_query = query.replace(random_term, modified_term)
 
-        modified_term = random_term[:random_char] + new_char + random_term[random_char + 1:]
-        modified_query = query_cleaned.replace(random_term, modified_term)
-
-        queries_variations.append(modified_query)
+          queries_variations.append(modified_query)
+        else :
+          queries_variations.append(query)
     return queries_variations
 
 
@@ -86,19 +105,23 @@ def QWERTYCharSub(queries) :
 
     queries_variations= []
     for query in queries :
-        query_without_stop_words = RemoveStopWords(query)
+        query_without_stop_words = RemoveStopWords([query])[0]
+        query_without_stop_words = suppression_ponctuation(query_without_stop_words)
         words =  query_without_stop_words.split()
-        random_term = random.choice(words)
-        position = random.randint(0, len(random_term) - 1)
-        term_list = list(random_term)
-        new_char = random.choice(keyboard_layout[term_list[position]])
-        term_list[position] = new_char
-        modified_term = ''.join(term_list)
-        modified_query = query.replace(random_term, modified_term)
-        
-        queries_variations.append(modified_query)
+        if len(words) != 0 :
+          while True :
+            random_term = random.choice(words)
+            position = random.randint(0, len(random_term) - 1)
+            term_list = list(random_term)
+            if term_list[position] in keyboard_layout.keys():
+              new_char = random.choice(keyboard_layout[term_list[position]])
+              term_list[position] = new_char
+              modified_term = ''.join(term_list)
+              modified_query = query.replace(random_term, modified_term)
+              
+              queries_variations.append(modified_query)
+              break
+        else :
+          queries_variations.append(query)
 
-    return queries_variations
-
-# print(QWERTYCharSub("durable medical equipment consist"))
-# print(RandomCharSub ("what is durable medical equipment consist of"))
+    return queries_variations   

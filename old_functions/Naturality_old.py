@@ -20,13 +20,21 @@ def RemoveStopWords(queries):
 
 
 def T5DescToTitle(queries):
-  summarizer = pipeline("summarization", model="/content/gdrive/MyDrive/t5-base_from_description_to_title/", tokenizer="t5-base")
+  summarizer = pipeline("summarization", model="fine_tunned-models/t5-base_from_description_to_title/", tokenizer="t5-base")
 
   query_variations = []
-  queries_input = ["summarize : {}? </s>".format(query) for query in queries]
-
-  titles = summarizer(queries_input, min_length=3, max_length=8)
+  titles = summarizer(queries, min_length=3, max_length=8)
   for title in titles:
-      query_variations.append(title['summary_text'])
-     
+      query_variations.append(title)
+      
   return query_variations
+
+# T5DescToTitle(["How many civilian non-combatants have been killed in \nthe various civil wars in Africa?"])
+# # ==> Africa civil wars 
+# """
+# [['what is durable medical equipment consist of.',
+#   'durable medical equipment',
+#   'summarization_with_t5-base_from_description_to_title',
+#   'naturality']]
+  
+# """
