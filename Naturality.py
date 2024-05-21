@@ -20,9 +20,11 @@ def T5DescToTitle(queries):
   summarizer = pipeline("summarization", model="fine_tunned-models/t5-base_from_description_to_title/", tokenizer="t5-base")
 
   query_variations = []
-  titles = summarizer(queries, min_length=3, max_length=8)
+  queries_input = ["summarize : {}? </s>".format(query) for query in queries]
+
+  titles = summarizer(queries_input, min_length=3, max_length=8)
   for title in titles:
-      query_variations.append(title)
+      query_variations.append(title['summary_text'])
       
   return query_variations
 
